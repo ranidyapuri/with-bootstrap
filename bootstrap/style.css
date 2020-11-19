@@ -1,0 +1,73 @@
+body{
+    background-color: #fff1e6;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: 'Playfair Display'; src: url(PlayfairDisplayMedium.ttf);
+    font-family: 'Oxford'; src: url(Oxford.ttf);
+    font-family: 'Lucida Sans'; src: url(Lucida\ Sans.ttf);
+    font-family: 'Sundiary'; src: url(SundiaryDemo-2OgdK.ttf);
+}
+.header{
+    margin-top: 50px;
+}
+.header h1{
+    font-family: 'Playfair Display';
+    text-align: center;
+    margin: 0;
+}
+.header p{
+    font-size: 50px;
+    font-family: 'Sundiary';
+    text-align: center;
+}
+.header img{
+    padding: 45px;
+}
+.display-4{
+    font-size: 36px;
+}
+#about, #collection{
+    padding-top: 50px;
+}
+.paragraf{
+    text-align: justify;
+}
+.title{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.row{
+    display: table;
+    clear: both;
+    margin: auto;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+hr{
+    border: 1px solid #eddcd2;
+}
+.card{
+    float: left;
+    margin: 50px 50px;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+.contact{
+    margin: 30px;
+}
+.main-contact{
+    font-family: 'Lucida Sans';
+    font-size: 24px;
+}
+.media{
+    background-color: #eddcd2;
+    padding: 30px 50px;
+}
+
